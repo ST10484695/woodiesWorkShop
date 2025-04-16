@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">woodiesWorkShop</string>
+    <string name="btnStart">Start</string>
+    <string name="green">#90F525</string>
+    <string name="tvDisplay">Please Select a Task.</string>
+    <string name="radio_Group">RadioGroup</string>
+    <string name="radio_Door">Door</string>
+    <string name="radio_Shelf">Shelf</string>
+    <string name="radio_Furniture">Furniture</string>
+    <string name="radio_Table">Table</string>
+    <string name="checkbox_Nails_R40">Nails_R40</string>
+    <string name="checkbox_Hinges_R30">Hinges_R30</string>
+    <string name="checkbox_Wood_R600">Wood_R600</string>
+    <string name="checkbox_WoodGlue_R50">Wood Glue_R50</string>
+    <string name="btnCalculate">Calculate</string>
+    <string name="etHours">Enter hours needed to complete task</string>
+    <string name="tvDisplayResult">TextviewResult</string>
+    <string name="btnClear">Clear</string>
+</resources>

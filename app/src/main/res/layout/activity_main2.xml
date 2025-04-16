@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:text="@string/tvDisplay"
+        android:textSize="25sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+    <RadioButton
+        android:id="@+id/radioDoor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_Door" />
+
+    <RadioButton
+        android:id="@+id/radioShelf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_Shelf" />
+
+    <RadioButton
+        android:id="@+id/radioFurniture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_Furniture" />
+
+    <RadioButton
+        android:id="@+id/radioTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_Table" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkboxNails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/checkbox_Nails_R40" />
+
+    <CheckBox
+        android:id="@+id/checkboxWood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/checkbox_Wood_R600" />
+
+    <CheckBox
+        android:id="@+id/checkboxHinges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/checkbox_Hinges_R30" />
+
+    <CheckBox
+        android:id="@+id/checkboxWoodGlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_WoodGlue_R50" />
+
+    <EditText
+        android:id="@+id/etHours"
+        android:layout_width="310dp"
+        android:layout_height="49dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="@string/etHours"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:text="@string/btnCalculate" />
+
+    <TextView
+        android:id="@+id/tvDisplayResult"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:text="@string/tvDisplayResult" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:text="@string/btnClear" />
+
+
+
+
+
+</LinearLayout>
