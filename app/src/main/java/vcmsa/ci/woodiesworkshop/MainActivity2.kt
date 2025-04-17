@@ -88,6 +88,7 @@ class MainActivity2 : AppCompatActivity() {
             checkboxHinges.isChecked=false
             checkBoxWoodGlue.isChecked=false
             checkBoxWood.isChecked=false
+            etHours.text.clear()
             tvDisplayResult.text=""
         }
     }
