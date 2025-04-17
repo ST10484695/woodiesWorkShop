@@ -1,7 +1,11 @@
 <resources>
     <string name="app_name">woodiesWorkShop</string>
+    <string name="tvdisplay">WoodiesWorkShop</string>
     <string name="btnStart">Start</string>
-    <string name="green">#90F525</string>
+    <string name="green">#0b701a</string>
+    <string name="Black">#000000</string>
+    <string name="White">#FFFFFF</string>
+    <string name="Green">#99C28E</string>
     <string name="tvDisplay">Please Select a Task.</string>
     <string name="radio_Group">RadioGroup</string>
     <string name="radio_Door">Door</string>
